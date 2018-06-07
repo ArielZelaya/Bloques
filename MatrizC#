@@ -1,0 +1,187 @@
+//Rextester.Program.Main is the entry point for your code. Don't change it.
+//Compiler version 4.0.30319.17929 for Microsoft (R) .NET Framework 4.5
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace Rextester
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            //Your code goes here
+            
+            //inicializacion de la matriz
+            double[,] matriz = new double[9,6]{{1825.30,1561.2,256.520,1300,2000,0},
+                                             {1500.06,1200.00,1500,238.3,1247,0},
+                                             {985.4,586.89,455,658.2,568.22,0},
+                                              {258.9,1256.4,1600.5,850.4,876.31,0},
+                                                {566.36,800,1526.4,854.6,958.36,0},
+                                                {458.9,898.66,8200,7500,1615,0},
+                                                {2580,4120.3,1000.01,625.4,1250.0,0},
+                                                {1478.2,1250.5,625.4,2653.1,586.9,0},
+                                                {0,0,0,0,0,0}};
+          
+            
+           
+        UnidadesSucursal(matriz);
+        UnidadesDia(matriz); 
+         GananciasSemana(matriz);
+            MayorUtilidad(matriz);
+            MenorUtilidad(matriz);
+            PromedioDias(matriz);
+            PromedioSemana(matriz);
+        Impresion(matriz);
+        
+        }
+        
+        
+        //Metodo para mostrar el promedio de ganancias por semana
+        
+        public static void PromedioSemana(double [,] matriz){
+         double aux=0;
+            
+            Console.Write("\nPromedio semanal por sucursales");  
+            for(int fila=0;fila<=7;fila++){
+        for(int col=0;col<=4;col++)
+        {
+            
+            aux=aux+(matriz[fila,col]/5);
+            
+        }
+               
+               Console.Write("\nSucursal "+(fila+1)+": $"+aux);
+                 aux=0;
+              }
+             Console.Write("\nPromedio semanal total de todas las sucursales: $"+(matriz[8,5]/5)); 
+        }
+        //Metodo para mostrar el promedio de ganancias por dia
+        
+        public static void PromedioDias(double [,] matriz){
+               double aux=0;
+             string dia="x";
+            for(int col=0;col<=4;col++){
+                  
+           
+        for(int fila=0;fila<=7;fila++)
+        {
+           
+            aux=aux+(matriz[fila,col]/8);
+        }
+            switch (col)
+      {
+          case 0:
+              dia="lunes";
+              break;
+          case 1:
+               dia="martes";
+              break;
+                case 2:
+               dia="miercoles";
+              break;
+                case 3:
+              dia="jueves";
+              break;
+                case 4:
+              dia="viernes";
+              break;
+      }
+                Console.Write("\nEl promedio del dia " +dia+" es : $"+aux);
+                aux=0;
+            }
+             Console.Write("\n----------------------------------------------\n");
+        }
+         //Metodo para mostrar la menor utilidad y de que sucursal es
+        public static void MenorUtilidad(double[,] matriz){
+             double aux=100000;
+            int fil=0;
+            int col=0;
+            for(int fila=0;fila<=7;fila++){
+                for(int columna=0;columna<=4;columna++){
+                    if(matriz[fila,columna]<=aux){
+                    aux=matriz[fila,columna];
+                     fil=fila;
+                        col=columna;
+                    }
+                }}
+           
+            Console.Write("\nLa sucursal "+(fil+1)+" genero la menor utilidad con un total de: $"+aux+"\n");
+            Console.Write("----------------------------------------------\n");
+        }
+        //Metodo para mostrar la mayor utilidad y de que sucursal es
+        public static void MayorUtilidad(double[,] matriz){
+             double aux=0;
+            int fil=0;
+            int col=0;
+            for(int fila=0;fila<=7;fila++){
+                for(int columna=0;columna<=4;columna++){
+                    if(matriz[fila,columna]>=aux){
+                    aux=matriz[fila,columna];
+                     fil=fila;
+                        col=columna;
+                    }
+                }}
+            Console.Write("\n----------------------------------------------\n");
+            Console.Write("\nLa sucursal "+(fil+1)+" genero la mayor utilidad con un total de: $"+aux+"\n");
+            Console.Write("----------------------------------------------\n");
+        }
+        
+        //Metodo para mostrar el total de ganancias por semana y sucursal
+        public static void GananciasSemana(double[,] matriz){
+            Console.Write("----------------------------------------------\n");
+            Console.Write("Ganancias por semanales por sucursal \n");
+            for(int i=0;i<=7;i++){
+                Console.Write("Sucursal "+(i+1));
+            Console.Write(string.Format(": ${0} ", matriz[i,5]+"\n"));
+            }
+            Console.Write("----------------------------------------------\n");
+            Console.Write("Total de ganancias de la semana:$"+matriz[8,5]);
+        }
+        
+       //Total de unidades por sucursal se agrega en la ultima columna de cada fila 
+    public static void UnidadesSucursal(double[,] matriz){
+        
+        for(int fila=0;fila<=8;fila++){
+        for(int col=0;col<=4;col++)
+        {
+            
+            matriz[fila,5]=matriz[fila,5]+matriz[fila,col];
+        }}
+    }
+        //Total de unidades por dia se agrega al final de cada columna
+        public static void UnidadesDia(double[,] matriz){
+        
+        for(int col=0;col<=5;col++){
+        for(int fila=0;fila<=7;fila++)
+        {
+            
+            matriz[8,col]=matriz[8,col]+matriz[fila,col];
+        }}
+    }
+        //Metodo de impresion de matriz completa
+        public static void Impresion(double[,] matriz){
+             //impresion de matriz para probar los datos
+             Console.Write("\n----------------------------------------------\n");
+            Console.Write(" \t ");
+            Console.Write("Lunes\t\t");
+            Console.Write("Martes\t\t");
+            Console.Write("Miercoles\t\t");
+            Console.Write("Jueves\t\t");
+            Console.Write("Viernes\t\t");
+            Console.Write("Total\t");
+            for(int fila=0;fila<=8;fila++){
+                if(fila<=7)
+                Console.Write("\nSucursal "+(fila+1)+" :");
+                else
+                    Console.Write("\nTotal "+" :");
+                for(int columna=0;columna<=5;columna++){
+                    Console.Write(matriz[fila,columna]+"\t\t ");}
+            Console.Write("\n");
+                }
+        }
+    }
+    
+}
