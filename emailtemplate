@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <body style="background-color:#f7f7f7; padding-top: 50px; padding-bottom: 50px;">
+        
+    
+<table  cellpadding="0" border="0" align="center" cellspacing="0" style="margin-left: auto; margin-right:auto; margin-top: 50px;">
+    <tbody>
+        <tr >
+            <td>
+                <table class="header" style="" width="600">
+                    <tbody>
+                        <tr>
+                            <td><h1 style='padding-left: 45px; color:#ffffff;font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:25px;font-weight:300;line-height:150%;margin:0;text-align:left; padding-bottom: 15px;padding-top: 15px;'>Test redemption order</h1></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+                <td>
+                        <table style="background-color:#ffffff;border-bottom:0;font-weight:bold;line-height:100%;vertical-align:middle; border-radius: 0 0 0px 0px;border-left: 1px solid #dedede;border-right: 1px solid #dedede;border-bottom: 0px solid #dedede; " width="600">
+                            <tbody>
+                                    <td>
+                                            <table cellpadding="0" border="0" align="center" cellspacing="0" style="background-color:#ffffff; margin-top: 15px; margin-bottom: 10px; border-bottom:0;font-weight:bold; border-left: 1px solid #dedede;border-right: 1px solid #dedede; " width="500">
+                                                <tbody>
+                                                    <thead >
+                                                    <tr>
+                                                        <th style="color:#636363;border:1px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left" width="25%"><h1 style=' color:#636363; font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:20px;font-weight:500;line-height:100%;margin:0;text-align:left;padding-top: 10px;'>Product</h1></th>   
+                                                        <th style="color:#636363;border:1px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left" width="25%"><h1 style=' color:#636363; font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:20px;font-weight:500;line-height:150%;margin:0;text-align:left;padding-top: 10px;'>Stars</h1></th>   
+                                                        <th style="color:#636363;border:1px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left" width="50%"><h1 style=' color:#636363; font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:20px;font-weight:500;line-height:150%;margin:0;text-align:left;padding-top: 10px;'>Order #</h1></th>   
+                                                    </tr>
+                                                    </thead>
+                                                    <tr>
+                                                            <td style="color:#636363;border:1px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left"><h1 style=' color:#6c6763;font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:17px;font-weight:300;line-height:100%;margin:0;text-align:left;padding-top: 5px;'>Test product </h1></td>   
+                                                            <td style="color:#636363;border:1px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left"><h1 style=' color:#6c6763;font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:17px;font-weight:300;line-height:100%;margin:0;text-align:left;padding-top: 5px;'>5</h1></td>   
+                                                            <td style="color:#636363;border:1px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left"><h1 style=' color:#6c6763;font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:17px;font-weight:300;line-height:100%;margin:0;text-align:left;padding-top: 5px;'>123-1234567-1234567</h1></td>   
+                                                    </tr>
+                                                    <tr>
+                                                            <th style="color:#636363;border:1px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left" ><h1 style=' color:#636363; font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:20px;font-weight:500;line-height:100%;margin:0;text-align:left;padding-top: 10px;'>First name</h1></th>   
+                                                            <th style="color:#636363;border:1px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left" ><h1 style=' color:#636363; font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:20px;font-weight:500;line-height:150%;margin:0;text-align:left;padding-top: 10px;'>Last name</h1></th>   
+                                                            <th style="color:#636363;border:1px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left" ><h1 style=' color:#636363; font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:20px;font-weight:500;line-height:150%;margin:0;text-align:left;padding-top: 10px;'>Email</h1></th>   
+                                                        </tr>
+                                                        </thead>
+                                                        <tr>
+                                                                <td style="color:#636363;border:1px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left"><h1 style=' color:#6c6763;font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:17px;font-weight:300;line-height:100%;margin:0;text-align:left;padding-top: 5px;'>Happy </h1></td>   
+                                                                <td style="color:#636363;border:1px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left"><h1 style=' color:#6c6763;font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:17px;font-weight:300;line-height:100%;margin:0;text-align:left;padding-top: 5px;'>Developer</h1></td>   
+                                                                <td style="color:#636363;border:1px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left"><h1 style=' color:#6c6763;font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:17px;font-weight:300;line-height:100%;margin:0;text-align:left;padding-top: 5px;'>Ariel@mvagency.co</h1></td>   
+                                                        </tr>
+                                                    </tbody>
+                                                    <tfoot >
+                                                        <tr>
+                                                                <th style="color:#636363;border:1px solid #e5e5e5;border-top:4px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left" width="50%"><h1 style=' color:#636363; font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:18px;font-weight:600;line-height:100%;margin:0;text-align:left;padding-top: 10px;'>Shipping</h1></th> 
+                                                                <td style="color:#636363;border:1px solid #e5e5e5;border-top:4px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left" colspan="2"><h1 style=' color:#6c6763;font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:17px;font-weight:300;line-height:100%;margin:0;text-align:left;padding-top: 5px;'>Culver City Office:(WeWork)</h1></td>   
+                                                        </tr>
+                                                        <tr>
+                                                                <th style="color:#636363;border:1px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left" width="50%"><h1 style=' color:#636363; font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:18px;font-weight:600;line-height:100%;margin:0;text-align:left;padding-top: 10px;'>City</h1></th> 
+                                                                <td style="color:#636363;border:1px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left" colspan="2"><h1 style=' color:#6c6763;font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:17px;font-weight:300;line-height:100%;margin:0;text-align:left;padding-top: 5px;'>Los angeles</h1></td>   
+                                                        </tr>
+                                                        <tr>
+                                                                <th style="color:#636363;border:1px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left" width="50%"><h1 style=' color:#636363; font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:18px;font-weight:600;line-height:100%;margin:0;text-align:left;padding-top: 10px;'>State</h1></th> 
+                                                                <td style="color:#636363;border:1px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left" colspan="2"><h1 style=' color:#6c6763;font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:17px;font-weight:300;line-height:100%;margin:0;text-align:left;padding-top: 5px;'>California</h1></td>   
+                                                        </tr>
+                                                        <tr>
+                                                                <th style="color:#636363;border:1px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left" width="50%"><h1 style=' color:#636363; font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:18px;font-weight:600;line-height:100%;margin:0;text-align:left;padding-top: 10px;'>Zip</h1></th> 
+                                                                <td style="color:#636363;border:1px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left" colspan="2"><h1 style=' color:#6c6763;font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:17px;font-weight:300;line-height:100%;margin:0;text-align:left;padding-top: 5px;'>90016</h1></td>   
+                                                        </tr>
+                                                        <tr>
+                                                                <th style="color:#636363;border:1px solid #e5e5e5;border-top:3px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left" colspan="3"><h1 style=' text-align:center; color:#636363; font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:18px;font-weight:600;line-height:100%;padding-top: 10px; margin: 0px;'>Review</h1></th> 
+                                                                </tr>
+                                                                <tr>
+                                                                        <td style="color:#636363;border:1px solid #e5e5e5;border-bottom:4px solid #e5e5e5;vertical-align:middle;padding:7px;text-align:left" colspan="3"><h1 style=' margin-left: auto; margin-right: auto; color:#6c6763;font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:17px;font-weight:300;line-height:100%;margin:0;text-align:left;padding-top: 5px;'>This is a test review This is a test review This is a test review This is a test review This is a test review This is a test review This is a test review This is a test review This is a test review This is a test review</h1></td>   
+                                                        
+                                                                </tr>
+                                                    </tfoot>
+                                            </table>
+                                        </td>
+                            </tbody>
+                        </table>
+                    </td>
+        </tr>
+        <tr >
+                <td>
+                    <table style="background-color:#1e3173; color:#ffffff;border-bottom:0;font-weight:bold;line-height:100%;vertical-align:middle; border-radius: 0px 0px 6px 6px; border-left: 1px solid #dedede;border-right: 1px solid #dedede;border-top: 1px solid #dedede; " width="600">
+                        <tbody>
+                            <tr>
+                                <td><h1 style=' color:#ffffff;font-family:"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:25px;font-weight:300;line-height:150%;margin:0;text-align:center; padding-bottom: 15px;padding-top: 15px;'>GoBiotix</h1></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+    </tbody>
+</table>
+</body>
+</html>
+
+<style>
+.header{
+    background-color:#1e3173; color:#ffffff;border-bottom:0;font-weight:bold;line-height:100%;vertical-align:middle; border-radius: 6px 6px 0 0; border-left: 1px solid #dedede;border-right: 1px solid #dedede;border-top: 1px solid #dedede; 
+}
+</style>
